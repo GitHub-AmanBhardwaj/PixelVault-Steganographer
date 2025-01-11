@@ -41,20 +41,20 @@ To use Metadata-Steganographer, run the app.py script. For pixel-based steganogr
 
 ## **Previews:**
 - ### Homepage
-<div style="margin-left: 50px;">
-  <img src="assets/1.png" alt="Description" width="800">
-</div>
+
+  <img src="assets/1.png" alt="Description" width="900">
+
 
 <br/>
 
 - ### Encoder Page
-<div style="margin-left: 50px;">
-  <img src="assets/2.png" alt="Description" width="800">
-</div>
+
+  <img src="assets/2.png" alt="Description" width="900">
+
 
 <br/>
 
 - ### Decoder Page
-<div style="margin-left: 50px;">
-  <img src="assets/3.png" alt="Description" width="800">
-</div>
+
+  <img src="assets/3.png" alt="Description" width="900">
+
