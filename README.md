@@ -1,6 +1,5 @@
 # PixelVault: The Art of Hidden Messages
 
-> **"Where your images whisper secrets into the digital ether."**
 
 ---
 
