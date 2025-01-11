@@ -1,8 +1,6 @@
 # PixelVault: The Art of Hidden Messages
 
 
----
-
 ## **About PixelVault**
 PixelVault is an innovative image steganography tool that enables you to hide secret messages or data within images. Combining the power of advanced algorithms with a user-friendly interface, PixelVault empowers developers, researchers, and enthusiasts to explore the fascinating world of hidden communication.
 
