@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}Decoder{% endblock title %}
+{% block body %}
+<div class="container mt-5" style="width: 60vw;">
+    <h1>Image Steganography: Decode Your Message</h1>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="alert-container">
+        {% for category, message in messages %}
+        <div class="alert alert-{{category}} mt-4">
+            {{message}}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <form action="/dec" method="POST" enctype="multipart/form-data" class="my-4">
+        <div class="mb-3">
+            <label for="file" class="form-label">Upload an Image:</label>
+            <input type="file" class="form-control" id="file" name="file" accept="image/*" required>
+        </div>
+        <button type="submit" class="btn btn-dark">Decode Message</button>
+    </form>
+
+    {% if decoded_message %}
+    <h4 class="mt-5 mb-4">Decoded Message:</h4>
+    <div class="alert alert-secondary custom-shadow">
+        {{decoded_message}}
+    </div>
+    <br>
+    {% else %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    {% endif %}  
+</div>
+{% endblock body %}

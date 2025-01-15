@@ -1,0 +1,28 @@
+{% extends 'base.html' %} 
+{% block title %} Home{% endblock title %} 
+{% block body %}
+<h1 style="font-family:'Great Vibes'; font-size: 50px; margin-left: 30px; margin-top: 30px; font-weight: 500;">Welcome to <my>PixelVault...</my></h1>    
+<div style="display: flex; justify-content: center; margin-top: 60px; gap: 50px;">
+        <a href="/cod">
+            <div class="card custom-shadow text-bg-dark" style="width: 30vw; height: 30vw; border-radius: 20px;">
+                <img src="static/cod.jpg" class="card-img" alt="Card image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); border-radius: 20px; padding: 20px;">
+                    <h5 class="card-title">Perform <i>Encryption</i></h5>
+                    <p class="card-text">Add secret messages in your images.</p>
+                    <p class="card-text"><small>Click to visit &gt;</small></p>
+                </div>
+            </div>
+        </a>
+
+        <a href="/dec">
+            <div class="card custom-shadow text-bg-dark" style="width: 30vw; height: 30vw; border-radius: 20px;">
+                <img src="static/cod.jpg" class="card-img" alt="Card image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); border-radius: 20px; padding: 20px;">
+                    <h5 class="card-title">Perform <i>Decryption</i></h5>
+                    <p class="card-text">Get the secret messages from any coded image.</p>
+                    <p class="card-text"><small>Click to visit &gt;</small></p>
+                </div>
+            </div>
+        </a>
+    </div>
+{% endblock body %}
