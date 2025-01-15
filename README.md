@@ -58,7 +58,7 @@ To use Metadata-Steganographer, run the app.py script. For pixel-based steganogr
 </p>
 
 <p align="center">
-<img src="assets/en23.png" alt="Description" width="700">
+<img src="assets/en3.png" alt="Description" width="700">
 </p>
 <br/>
 
