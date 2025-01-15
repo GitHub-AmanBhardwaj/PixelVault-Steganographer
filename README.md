@@ -36,25 +36,53 @@ PixelVault is an innovative image steganography tool that enables you to hide se
 
 ## **Note:**
 To use Metadata-Steganographer, run the app.py script. For pixel-based steganography, substitute the encode and decode functions in app.py with those found in pixel.py.
+- Pixel Based functions can take more time.
 
 ---
 
 ## **Previews:**
 - ### Homepage
-
-  <img src="assets/1.png" alt="Description" width="800">
-
+<p align="center">
+<img src="assets/home.png" alt="Description" width="700">
+</p>
 
 <br/>
 
 - ### Encoder Page
+<p align="center">
+<img src="assets/en1.png" alt="Description" width="700">
+</p>
 
-  <img src="assets/2.png" alt="Description" width="800">
 
+<p align="center">
+<img src="assets/en2.png" alt="Description" width="700">
+</p>
 
+<p align="center">
+<img src="assets/en3.png" alt="Description" width="700">
+</p>
 <br/>
 
 - ### Decoder Page
+<p align="center">
+<img src="assets/dec1.png" alt="Description" width="700">
+</p>
 
-  <img src="assets/3.png" alt="Description" width="800">
 
+<p align="center">
+<img src="assets/dec2.png" alt="Description" width="700">
+</p>
+<br/>
+
+- ### Links Page
+<p align="center">
+<img src="assets/links.png" alt="Description" width="700">
+</p>
+
+<br/>
+
+- ### About Page
+<p align="center">
+<img src="assets/about.png" alt="Description" width="700">
+</p>
+<br/>
