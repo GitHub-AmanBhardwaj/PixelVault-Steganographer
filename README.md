@@ -36,6 +36,7 @@ PixelVault is an innovative image steganography tool that enables you to hide se
 
 ## **Note:**
 To use Metadata-Steganographer, run the app.py script. For pixel-based steganography, substitute the encode and decode functions in app.py with those found in pixel.py.
+- Pixel Based functions can take more time.
 
 ---
 
